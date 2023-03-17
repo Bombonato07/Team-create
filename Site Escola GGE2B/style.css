@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabeçalho{
+    background-color: green;
+    color:wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.imagem{
+    width: 10%;
+    padding:0px;
+    margin: 0px;
+
+}
+
+.Item{
+display: inline-block;
+margin: 0 16px;
+font-size: 24px;
+
+}
+
+escola{
+
+}
+
+.escola-imagem{
+
+}
