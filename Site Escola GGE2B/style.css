@@ -9,27 +9,53 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 0;
+    padding: 16px 50px;
 }
 
 .imagem{
     width: 10%;
-    padding:0px;
-    margin: 0px;
-
 }
 
 .Item{
+text-decoration:underline;
 display: inline-block;
 margin: 0 16px;
 font-size: 24px;
 
 }
 
-escola{
+.escola{
+background-image: linear-gradient(green,rgb(1, 75, 1) );
+height: 720px;
+color: wheat;
+justify-content: space-between;
+align-items: center;
+padding: 24px 0px ;
+display: flex;
+}
+
+.escola-div-conteudo{
+    padding: 0px 0px 470px;
+    text-align: center;
+    width: 35%;
+}
+
+.escola-titulo{
+padding: 24px 0px;
+}
+.escola-texto{
+padding: 24px 0px;
+    
+}
+
+.imagem-escola{
+    padding: 40px;
+    border-radius: 100px;
+    width: 35%;
 
 }
 
-.escola-imagem{
+.foto-estudante{
+    width: 160px;
 
 }
