@@ -4,7 +4,8 @@
 }
 
 .cabeçalho{
-    background-color: green;
+    background-color: rgb(29, 136, 29);
+    text-decoration: underline;
     color:wheat;
     display: flex;
     justify-content: space-between;
@@ -55,7 +56,46 @@ padding: 24px 0px;
 
 }
 
+.estudante{
+    background-color: rgb(224, 179, 241);
+}
+
+h2{
+    text-align: center;
+}
+
+.todos-os-estudante{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20% 20% 20% 20% 20%;
+}
+
+.estudante-div{
+    padding: 30px;
+    text-align: center;
+}
+
+
 .foto-estudante{
-    width: 160px;
+    border-radius: 10px;
+    width: 50px;
 
 }
+
+.redesocial{
+    width: 50px;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+    width: 2000px;
+
+}
+
+.rodape-imagem{
+    height: 120px;
+    padding: 12px ;
+    padding-right: 90px;
+
+}
+
